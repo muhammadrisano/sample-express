@@ -15,7 +15,7 @@ app.get("/helo", (req, res) => {
 });
 
 app.get("/name", (req, res) => {
-  res.josn({
+  res.json({
     name: process.env.APP_NAME
   })
 });
