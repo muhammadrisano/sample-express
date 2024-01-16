@@ -16,7 +16,7 @@ app.get("/helo", (req, res) => {
 
 app.get("/name", (req, res) => {
   res.json({
-    name: process.env.APP_NAME
+    name: process.env.VERCEL_APP_NAMES
   })
 });
 
